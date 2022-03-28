@@ -6,7 +6,6 @@ public class HomeWorkApp {
         checkSumSign();
         printColor();
         compareNumbers();
-        skip();
         printColor();
         printColor();
         checkSumSign();
@@ -17,19 +16,16 @@ public class HomeWorkApp {
         System.out.println("Banana");
         System.out.println("Apple");
     }
-    public static void skip(){
-        char s =' ';
-        System.out.println(s);
     }
     public static void checkSumSign() {
         int a =747;
         int b =333;
 
-        int Sum = a + b;
-        if (Sum >= 0) {
+        int sum = a + b;
+        if (sum >= 0) {
             System.out.println("Сумма положительная");
         }
-        if (Sum < 0) {
+        if (sum < 0) {
             System.out.println("Сумма отрицательная");
         }
 
@@ -39,7 +35,7 @@ int value = -247;
 if (value<=0) {
     System.out.println("Красный");
 }
-if (value>=1 && value<=100){
+if (value>=0 && value<=100){
     System.out.println("Желтый");
 }
 if (value>=101){
